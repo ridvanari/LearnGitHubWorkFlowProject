@@ -29,6 +29,7 @@ namespace LearnGitHubWorkFlowProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnHello = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -48,8 +49,9 @@ namespace LearnGitHubWorkFlowProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(956, 570);
             this.Controls.Add(this.btnHello);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hello World";
             this.ResumeLayout(false);
 
         }
