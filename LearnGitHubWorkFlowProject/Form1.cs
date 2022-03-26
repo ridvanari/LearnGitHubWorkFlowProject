@@ -20,6 +20,7 @@ namespace LearnGitHubWorkFlowProject
         private void btnHello_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello GitHub Workflow, let's learn you!");
+            MessageBox.Show("Bye");
         }
     }
 }
