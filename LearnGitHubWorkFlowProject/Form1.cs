@@ -27,5 +27,10 @@ namespace LearnGitHubWorkFlowProject
         {
             MessageBox.Show("About box for the test software.\n Copyrigths @ 2022 Test Company");
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
