@@ -25,7 +25,7 @@ namespace LearnGitHubWorkFlowProject
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("About box for the test software.");
+            MessageBox.Show("About box for the test software.\n Copyrigths @ 2022 Test Company");
         }
     }
 }
