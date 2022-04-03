@@ -22,5 +22,10 @@ namespace LearnGitHubWorkFlowProject
             MessageBox.Show("Hello GitHub Workflow, let's learn you!");
             MessageBox.Show("Bye");
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("About Box for the test software.");
+        }
     }
 }
